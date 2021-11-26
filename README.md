@@ -1,2 +1,2 @@
-# TimeTracker
-School project - Java Time Tracker
+# Grumpsen Development
+ 2. Semester Exsam

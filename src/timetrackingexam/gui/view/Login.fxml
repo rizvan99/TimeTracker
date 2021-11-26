@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="134.0" prefWidth="341.0" stylesheets="@../../../StyleSheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetrackingexam.gui.controller.Login">
+   <children>
+      <TextField fx:id="txtName" layoutX="21.0" layoutY="20.0" prefHeight="25.0" prefWidth="163.0" promptText="Email" />
+      <PasswordField fx:id="txtPassword" layoutX="21.0" layoutY="55.0" prefHeight="25.0" prefWidth="163.0" promptText="Password" />
+      <ImageView fitHeight="87.0" fitWidth="125.0" layoutX="202.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/GDI.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnLogin" layoutX="21.0" layoutY="95.0" onAction="#handleLogin" prefHeight="25.0" prefWidth="59.0" text="Login" />
+   </children>
+</AnchorPane>
